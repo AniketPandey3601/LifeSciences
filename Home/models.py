@@ -18,7 +18,7 @@ class Products(models.Model):
     title = models.CharField(max_length=200)
     content=models.TextField()
     slug=models.CharField(max_length=15)  
-    image=models.ImageField(upload_to ='uploads/',null=True)
+    image=models.ImageField(upload_to ='uploads',null=True)
 
 
     def __str__(self):
@@ -30,7 +30,7 @@ class Covid_Solutions(models.Model):
     title = models.CharField(max_length=200)
     content=models.TextField()
     slug=models.CharField(max_length=15)  
-    image=models.ImageField(upload_to ='uploads/',null=True)
+    image=models.ImageField(null=True)
 
 
     def __str__(self):

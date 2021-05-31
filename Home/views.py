@@ -1,6 +1,7 @@
 from datetime import datetime
 from django.shortcuts import render,HttpResponse
 from Home.models import contact,Products,Covid_Solutions
+from django.templatetags.static import static
 
 
 # Create your views here.
